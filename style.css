@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: #6495ED;
+}
+ul{
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+header img{
+    height: 60px;
+    aspect-ratio: 2.5/1;
+    margin: 10px;
+}
+header{
+    background-color: black;
+    height: 85px;
+}
+img, nav{
+    display: inline-block;
+}
+header>a, li{
+    vertical-align: middle;
+}
+.inline-nav li{
+    display: inline-block;
+}
+.spacer{
+    width: calc(100% - 200px - 290px);
+    display: inline-block;
+}
+.inline-nav li{
+    margin-left: 15px;
+}
+
+/*以下main*/
+aside{
+    background-color: #333132;
+    width: calc(20% - 4px);
+    aspect-ratio: 1/2;
+}
+h1, aside{
+    display: inline-block;
+} 
+section h1{
+    width: 80%;
+    aspect-ratio: 2.5/1;
+    vertical-align: top;
+}
+h2{
+    color: white;
+}
+h1, h2, footer, main li{
+    text-align: center;
+}
+
+
+/*ここからはfooter*/
+footer{
+    background-color: black;
+    color: white;
+    padding: 5px 0;
+}
+hr{
+    width: 85%;
+}
+
+/*ここからはhoverの設定*/
+li :hover{
+    opacity: 0.5;
+}
+#current-page{
+    color: green;
+}
